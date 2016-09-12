@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.admin.birthdaycard.MainActivity"
+    android:background="#880E4F">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:textAllCaps="true"
+        android:textColor="#F50057"
+        android:text="happy birthday to you!!!! "
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:padding="8dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="happy birthday,,wish you many more years to come stay blessed!!!"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:textColor="#F50057"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:textAllCaps="true"
+        android:layout_centerHorizontal="true"/>
+        
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/kerese"/>
+
+
+
+</RelativeLayout>
